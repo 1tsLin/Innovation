@@ -20,6 +20,11 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
    // floriane was here
+
+    //nathalie was here too \°3°/
+    //zbibzbibzbibzbibzbib
+
+
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
