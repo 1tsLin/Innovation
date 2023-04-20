@@ -2,8 +2,12 @@ package com.example.exercice;
 
 
 import android.content.Context;
+import android.os.Bundle;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
@@ -38,8 +42,9 @@ public class GameLoop extends SurfaceView implements SurfaceHolder.Callback {
     }
 
     private void setUpViews() {
-        textView = (TextView) findViewById(R.id.year_counter);
-        button = (ImageButton) findViewById(R.id.advance);
+    }
+
+    private void setContentView(int activity_main) {
     }
 
     private void initClickEvents() {
@@ -51,7 +56,11 @@ public class GameLoop extends SurfaceView implements SurfaceHolder.Callback {
             }
         });
     }
+    protected void onCreate() {
+        super.onCreate();
+        setContentView(R.layout.activity_main);
 
+    }
     @Override
     public void surfaceCreated(@NonNull SurfaceHolder surfaceHolder) {
 
