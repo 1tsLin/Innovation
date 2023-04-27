@@ -9,4 +9,42 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Strings used for home page -->
+    <string name="bienvenue">BIENVENUE</string>
+    <string name="commencer">COMMENCER</string>
+    <string name="options">OPTIONS</string>
+    <string name="quitter">QUITTER</string>
+    <string name="game">GAMU</string>
+
+    <!-- Strings used for in game (à retravailler) -->
+    <string name="menu">MENU</string>
+
+    <!-- Strings used for options -->
+    <string name="sons">SONS</string>
+    <string name="musique">MUSIQUE</string>
+    <string name="sauvagarder">SAUVEGARDER</string>
+    <string name="retour">RETOUR</string>
+
+    <!-- Strings used for pause -->
+    <string name="reprendre">REPRENDRE</string>
+    <string name="recommencer">RECOMMENCER</string>
+    <string name="main">MENU PRINCIPAL</string>
+
+    <!-- Strings used for game over -->
+    <string name="gameover">GAMEOVER</string>
+
+    <!-- Style title text -->
+    <style name="titre">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/fs-gravity</item>
+    </style>
+
+    <!-- Style normal text -->
+    <style name="texte" parent="titre">
+        <item name="android:textColor">@color/darkBlue</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
 </resources>
