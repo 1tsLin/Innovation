@@ -51,8 +51,7 @@ public class GameLoop extends SurfaceView implements SurfaceHolder.Callback {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                years += 1;
-                textView.setText("" + years + "");
+                
             }
         });
     }
